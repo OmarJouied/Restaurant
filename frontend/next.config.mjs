@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["localhost"]
+    domains: ["localhost", "restaurant-ttr6.onrender.com"]
   },
   env: {
     BACKEND_HOST: process.env.BACKEND_HOST
